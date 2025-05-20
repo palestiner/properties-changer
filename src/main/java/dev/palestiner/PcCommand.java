@@ -21,7 +21,7 @@ public class PcCommand implements Callable<Integer> {
     private String value;
 
     @Option(
-            names = {"-f", "--property-file-name", "--props"},
+            names = {"-f", "--property-file-path", "--props"},
             defaultValue = "application.properties",
             required = true
     )
